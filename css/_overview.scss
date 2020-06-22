@@ -1,0 +1,37 @@
+.overview-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 94px 0 95px;
+}
+
+.overview-description {
+    width: 445px;
+    height: 250px;
+}
+
+.overview__title {
+    font-size: 3.6rem;
+    line-height: 43px;
+    padding: 46px 0 24px;
+}
+
+.overview__subtitle {
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+
+.overview-video {
+    position: relative;
+    width: 445px;
+    height: 311px;
+    background: url(../img/Video_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 95px;
+    img {
+        position: absolute;
+        left: -28px;
+        bottom: 120px;
+    }
+}
