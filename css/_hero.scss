@@ -1,0 +1,35 @@
+#hero {
+    background-image: url(../img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-content {
+    padding: 257px 187px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 7.2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero__subtitle {
+    font-size: 2.4rem;
+    color: #ffffff;
+    padding: 39px 120px 39px;
+}
+
+.hero__button {
+    width: 160px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 6px;
+    color: #ed4c5c;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border: none;
+}
