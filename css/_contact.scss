@@ -1,0 +1,64 @@
+#contact {
+    padding: 117px 0 78px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-description {
+    width: 445px;
+}
+
+.contact__titile {
+    font-size: 3.6rem;
+    line-height: 43px;
+}
+
+.contact__subtitle {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: justify;
+    padding: 30px 0;
+}
+
+form {
+    width: 540px;
+    input {
+        width: 100%;
+        border: 1px solid #333333;
+        height: 60px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    ::placeholder {
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 19px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 10px;
+    }
+}
+
+.form-name {
+    display: flex;
+    justify-content: space-between;
+    :nth-child(1) {
+        margin-right: 20px;
+    }
+}
+
+.form-btn {
+    background: #ed4c5c;
+    border: 1.5px solid #ed4c5c;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
