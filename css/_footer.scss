@@ -1,0 +1,58 @@
+.footer-nav {
+    background: #fafafa;
+    padding: 85px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-element {
+    width: calc(100% / 4);
+    margin-right: 30px;
+}
+
+.footer-element__title {
+    font-size: 1.8rem;
+    line-height: 22px;
+    padding-bottom: 33px;
+}
+
+.footer-element__subtitle {
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 18px;
+    padding-right: 56px;
+}
+
+.footer-element__list {
+    list-style: none;
+}
+
+.footer-element__item {
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.footer-element-mail,
+.footer-element-phone {
+    padding-right: 120px;
+    padding-bottom: 10px;
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 14px;
+    }
+}
+
+.company-about {
+    padding-top: 86px;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 14px;
+}
