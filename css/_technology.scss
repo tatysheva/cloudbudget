@@ -1,5 +1,5 @@
 #technology {
-    margin: 63px 0 104px;
+    margin: 73px 0 134px;
 }
 
 .technology-title {
@@ -16,8 +16,7 @@
 
 .technology-content {
     text-align: center;
-    width: 255px;
-    height: 226px;
+    width: calc(100%/4);
     span {
         position: relative;
         font-size: 10rem;
