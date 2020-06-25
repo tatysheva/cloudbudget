@@ -23,6 +23,9 @@ a {
 .container {
     width: 1110px;
     margin: 0 auto;
+    @include media-laptop {
+        width: 900px;
+    }
 }
  button {
      cursor: pointer;

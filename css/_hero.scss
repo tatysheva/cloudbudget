@@ -3,11 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    @include media-laptop {
+        height: 100%;
+    }
 }
 
 .hero-content {
     padding: 257px 187px;
     text-align: center;
+    @include media-laptop {
+        padding: 200px 120px;
+    }
 }
 
 .hero__title {
@@ -15,21 +21,29 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #ffffff;
+    @include media-laptop {
+        font-size: 6.2rem;
+    }
 }
 
 .hero__subtitle {
     font-size: 2.4rem;
     color: #ffffff;
     padding: 39px 120px 39px;
+    @include media-laptop {
+        font-size: 2.2rem;
+    }
 }
 
 .hero__button {
-    width: 160px;
-    height: 50px;
+    padding: 15px 70px;
     background: #ffffff;
     border-radius: 6px;
     color: #ed4c5c;
     text-transform: uppercase;
     font-size: 1.4rem;
     border: none;
+    @include media-laptop {
+        font-size: 1.2rem;
+    }
 }
