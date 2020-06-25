@@ -54,4 +54,13 @@
     }
 }
 
+.getStarted-slider {
+    img {
+        @include  media-mobile {
+            width: 360px;
+            height: 220px;
+        }
+    }
+}
+
 

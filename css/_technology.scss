@@ -20,11 +20,19 @@
     @include media-tablet {
         padding-bottom: 23px;
     }
+    @include  media-mobile {
+        font-size: 3rem;
+        padding-bottom: 18px;
+    }
 }
 
 .technology-list {
     display: flex;
     justify-content: space-between;
+    @include  media-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .technology-content {
@@ -35,6 +43,9 @@
         font-size: 10rem;
         line-height: 120px;
         color: rgba(16, 16, 16, 0.08);
+    }
+    @include  media-mobile {
+        width: 100%;
     }
 }
 

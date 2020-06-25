@@ -5,6 +5,10 @@
     @include media-tablet {
         padding: 80px 0 80px;
     }
+    @include  media-mobile {
+        flex-direction: column;
+        padding: 30px 0 50px;
+    }
 }
 
 .overview-description {
@@ -17,6 +21,10 @@
     @include media-tablet {
         width: 300px;
         height: 150px;
+    }
+    @include  media-mobile {
+        margin-bottom: 20px;
+        width: 100%;
     }
 }
 
@@ -31,6 +39,9 @@
         font-size: 2rem;
         line-height: 23px;
         padding: 26px 0 24px;
+    }
+    @include  media-mobile {
+        padding: 10px 0 24px;
     }
 }
 
@@ -65,5 +76,9 @@
     @include media-tablet {
         width: 345px;
         height: 211px;
+    }
+    @include  media-mobile {
+        width: 320px;
+        margin-left: 30px;
     }
 }

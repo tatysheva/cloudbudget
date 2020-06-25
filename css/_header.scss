@@ -13,12 +13,18 @@
         width: 700px;
         padding-top: 30px;
     }
+    @include  media-mobile {
+        width: 380px;
+    }
 }
 
 .navigation {
     display: flex;
     list-style: none;
     align-items: center;
+    @include  media-mobile {
+        display: none;
+    }
 }
 
 .navigation__item {

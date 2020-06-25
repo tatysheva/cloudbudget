@@ -30,6 +30,9 @@
     @include media-tablet {
         font-size: 5rem;
     }
+    @include  media-mobile {
+        font-size: 2.6rem;
+    }
 }
 
 .hero__subtitle {
@@ -41,6 +44,10 @@
     }
     @include media-tablet {
         font-size: 2rem;
+    }
+    @include  media-mobile {
+        font-size: 1.6rem;
+        padding: 20px 20px 29px;
     }
 }
 
