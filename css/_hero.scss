@@ -14,6 +14,9 @@
     @include media-laptop {
         padding: 200px 120px;
     }
+    @include media-tablet {
+        padding: 180px 100px;
+    }
 }
 
 .hero__title {
@@ -24,6 +27,9 @@
     @include media-laptop {
         font-size: 6.2rem;
     }
+    @include media-tablet {
+        font-size: 5rem;
+    }
 }
 
 .hero__subtitle {
@@ -32,6 +38,9 @@
     padding: 39px 120px 39px;
     @include media-laptop {
         font-size: 2.2rem;
+    }
+    @include media-tablet {
+        font-size: 2rem;
     }
 }
 
@@ -45,5 +54,8 @@
     border: none;
     @include media-laptop {
         font-size: 1.2rem;
+    }
+    @include media-tablet {
+        padding: 10px 50px;
     }
 }

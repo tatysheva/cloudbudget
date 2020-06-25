@@ -23,6 +23,9 @@
     font-size: 1.8rem;
     line-height: 22px;
     padding-bottom: 33px;
+    @include media-tablet {
+        padding-bottom: 20px;
+    }
 }
 
 .footer-element__subtitle {
@@ -32,6 +35,10 @@
     padding-right: 56px;
     @include media-laptop {
         font-size: 1.4rem;
+    }
+    @include media-tablet {
+        padding-right: 26px;
+        font-size: 1.2rem;
     }
 }
 
@@ -47,6 +54,9 @@
     @include media-laptop {
         font-size: 1.4rem;
     }
+    @include media-tablet {
+        font-size: 1.2rem;
+    }
 }
 
 .footer-element-mail,
@@ -56,13 +66,16 @@
     @include media-laptop {
         padding-right: 80px;
     }
+    @include media-tablet{
+        padding-right: 60px;
+    }
     a {
         text-decoration: none;
         color: #000000;
         font-weight: normal;
         font-size: 1.6rem;
         line-height: 24px;
-        @include media-laptop {
+        @include media-tablet {
             font-size: 1.4rem;
         }
     }
@@ -75,5 +88,11 @@
     line-height: 14px;
     @include media-laptop {
         padding-top: 60px;
+    }
+}
+
+.support {
+    @include media-tablet {
+        width: 180px;
     }
 }

@@ -9,11 +9,16 @@
     @include media-laptop {
         width: 900px;
     }
+    @include media-tablet {
+        width: 700px;
+        padding-top: 30px;
+    }
 }
 
 .navigation {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .navigation__item {
@@ -22,6 +27,9 @@
     text-transform: uppercase;
     margin-left: 26px;
     font-style: normal;
+    @include media-tablet {
+        margin-left: 10px;
+    }
 }
 
 .login {
@@ -32,6 +40,14 @@
     color: #ffffff;
     span {
         padding: 0 10px;
+    }
+    img {
+        @include media-tablet {
+            display: none;
+        }
+    }
+    @include media-tablet {
+        font-size: 1.2rem;
     }
 }
 
@@ -53,4 +69,10 @@
     color: #ffffff;
     background: transparent;
     margin-left: 28px;
+    @include media-tablet {
+        width: 80px;
+        margin-left: 18px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
 }

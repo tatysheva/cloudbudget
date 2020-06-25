@@ -26,6 +26,9 @@ a {
     @include media-laptop {
         width: 900px;
     }
+    @include media-tablet {
+        width: 700px;
+    }
 }
  button {
      cursor: pointer;

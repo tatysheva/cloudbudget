@@ -4,12 +4,19 @@
     @include media-laptop {
         padding: 64px 0;
     }
+    @include media-tablet {
+        padding: 44px 0;
+    }
 }
 
 .getStarted-content {
     display: flex;
     justify-content: space-between;
     text-align: left;
+    @include media-tablet {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .getStarted-description {
@@ -18,6 +25,10 @@
         width: 50%;
         margin-right: 20px;
     }
+    @include media-tablet {
+        width: 80%;
+        padding-bottom: 40px;
+    }
 }
 
 .getStarted__title {
@@ -25,6 +36,10 @@
     line-height: 43px;
     color: #ffffff;
     padding-top: 30px;
+    @include media-tablet {
+        padding-top: 20px;
+        line-height: 33px;
+    }
 }
 
 .getStarted__subtitle {

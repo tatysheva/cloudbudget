@@ -3,6 +3,9 @@
     @include media-laptop {
         margin: 53px 0 94px;
     }
+    @include media-tablet {
+        margin: 43px 0 84px;
+    }
 }
 
 .technology-title {
@@ -13,6 +16,9 @@
     @include media-laptop {
         padding-bottom: 33px;
         line-height: 33px;
+    }
+    @include media-tablet {
+        padding-bottom: 23px;
     }
 }
 
