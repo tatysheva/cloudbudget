@@ -1,6 +1,9 @@
 .getStarted {
     background: #ed4c5c;
     padding: 94px 0;
+    @include media-laptop {
+        padding: 64px 0;
+    }
 }
 
 .getStarted-content {
@@ -11,6 +14,10 @@
 
 .getStarted-description {
     width: 445px;
+    @include media-laptop {
+        width: 50%;
+        margin-right: 20px;
+    }
 }
 
 .getStarted__title {
@@ -27,4 +34,9 @@
     line-height: 20px;
     text-align: justify;
     color: #ffffff;
+    @include media-laptop {
+        padding: 30px 0;
+    }
 }
+
+

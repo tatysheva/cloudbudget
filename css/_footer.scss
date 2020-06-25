@@ -1,6 +1,9 @@
 .footer-nav {
     background: #fafafa;
     padding: 85px 0;
+    @include media-laptop {
+        padding: 55px 0;
+    }
 }
 
 .footer-content {
@@ -11,6 +14,9 @@
 .footer-element {
     width: calc(100% / 4);
     margin-right: 30px;
+    @include media-laptop {
+        margin-right: 15px;
+    }
 }
 
 .footer-element__title {
@@ -24,6 +30,9 @@
     font-size: 1.6rem;
     line-height: 24px;
     padding-right: 56px;
+    @include media-laptop {
+        font-size: 1.4rem;
+    }
 }
 
 .footer-element__list {
@@ -35,18 +44,27 @@
     font-size: 1.6rem;
     line-height: 24px;
     text-transform: capitalize;
+    @include media-laptop {
+        font-size: 1.4rem;
+    }
 }
 
 .footer-element-mail,
 .footer-element-phone {
     padding-right: 120px;
     padding-bottom: 10px;
+    @include media-laptop {
+        padding-right: 80px;
+    }
     a {
         text-decoration: none;
         color: #000000;
         font-weight: normal;
         font-size: 1.6rem;
         line-height: 24px;
+        @include media-laptop {
+            font-size: 1.4rem;
+        }
     }
 }
 
@@ -55,4 +73,7 @@
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 14px;
+    @include media-laptop {
+        padding-top: 60px;
+    }
 }

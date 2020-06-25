@@ -1,5 +1,8 @@
 #contact {
     padding: 117px 0 78px;
+    @include media-laptop {
+        padding: 100px 0 78px;
+    }
 }
 
 .contact-content {
@@ -9,6 +12,10 @@
 
 .contact-description {
     width: 445px;
+    @include media-laptop {
+        width: 50%;
+        margin-right: 20px;
+    }
 }
 
 .contact__titile {
@@ -32,6 +39,9 @@ form {
         height: 60px;
         border-radius: 6px;
         margin-bottom: 20px;
+        @include media-laptop {
+            height: 50px;
+        }
     }
     ::placeholder {
         font-weight: normal;
@@ -61,4 +71,7 @@ form {
     line-height: 17px;
     text-transform: uppercase;
     color: #ffffff;
+    @include media-laptop {
+        height: 40px;
+    }
 }

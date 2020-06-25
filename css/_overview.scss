@@ -7,12 +7,19 @@
 .overview-description {
     width: 445px;
     height: 250px;
+    @include media-laptop {
+        width: 345px;
+        height: 150px;
+    }
 }
 
 .overview__title {
     font-size: 3.6rem;
     line-height: 43px;
     padding: 46px 0 24px;
+    @include media-laptop {
+        ont-size: 2.6rem;
+    }
 }
 
 .overview__subtitle {
@@ -33,5 +40,8 @@
         position: absolute;
         left: -28px;
         bottom: 120px;
+    }
+    @include media-laptop {
+        margin-right: 0;
     }
 }

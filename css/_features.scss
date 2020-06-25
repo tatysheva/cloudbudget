@@ -1,6 +1,9 @@
 #features {
     background: #fafafa;
     padding-bottom: 229px;
+    @include media-laptop {
+        padding-bottom: 200px;
+    }
 }
 
 .features-title {
@@ -8,6 +11,10 @@
     line-height: 43px;
     text-align: center;
     padding: 63px 0;
+    @include media-laptop {
+        ont-size: 2.6rem;
+        padding: 43px 0;
+    }
 }
 
 .features-content {
@@ -17,7 +24,15 @@
 
 .features__background {
     position: relative;
-    width: calc(100%/3);   
+    width: calc(100% / 3);
+    @include media-laptop {
+        margin-right: 15px;
+    }
+    img {
+        @include media-laptop {
+            width: 100%;
+        }
+    }
 }
 
 .features-description {
@@ -33,16 +48,28 @@
     border-radius: 8px;
     left: 30px;
     top: 185px;
+    @include media-laptop {
+        width: 230px;
+        height: 150px;
+        padding: 20px;
+    }
 }
 
 .features-description__title {
     font-size: 1.8rem;
+    @include media-laptop {
+        font-size: 1.6rem;
+    }
 }
 
 .features-description__subtitle {
     font-size: 1.2rem;
     line-height: 18px;
     padding: 20px 0;
+    @include media-laptop {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
 }
 
 .features-description__link {

@@ -1,5 +1,8 @@
 #technology {
     margin: 73px 0 134px;
+    @include media-laptop {
+        margin: 53px 0 94px;
+    }
 }
 
 .technology-title {
@@ -7,6 +10,10 @@
     line-height: 43px;
     text-align: center;
     padding-bottom: 63px;
+    @include media-laptop {
+        padding-bottom: 33px;
+        line-height: 33px;
+    }
 }
 
 .technology-list {
